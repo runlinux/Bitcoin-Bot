@@ -1,0 +1,22 @@
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\BitcoinSeller.Form1.resources
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\BitcoinSeller.Resources.resources
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\BitcoinSeller.exe
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\BitcoinSeller.xml
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\BitcoinSeller.pdb
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\bin\Debug\BitcoinSeller.exe
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\bin\Debug\BitcoinSeller.pdb
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\bin\Debug\BitcoinSeller.xml
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\BitcoinSeller.Form1.resources
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\BitcoinSeller.Resources.resources
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ajhall\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\bin\Debug\Bitcoin Bot.exe
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\bin\Debug\Bitcoin Bot.pdb
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\bin\Debug\Bitcoin Bot.xml
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\Bitcoin Bot.exe
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\Bitcoin Bot.xml
+C:\Users\AJ\Dropbox\Visual Studio 2010\Bitcoin Seller\BitcoinSeller\BitcoinSeller\obj\x86\Debug\Bitcoin Bot.pdb

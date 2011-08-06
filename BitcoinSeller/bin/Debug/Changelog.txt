@@ -1,0 +1,81 @@
+Changes 8/2/2011
+
+fix to the buy and sell values not working as usual.
+
+New Settings File format, old one is not valid!!!
+No More Fees!!
+Changed the buy / sell logic. Each price has its own averages it works from.
+change the email system - you only get emails when you can send from your own email address's SMTP port
+Slight change to the graph - min and max are now 0.3% above / below
+handful of UI tweaks
+	user Data is now located on a seperate Tab (Ugly, but it works)
+
+
+
+
+Changes 7/19/2011
+Changed the buy sell logic - the averages were being triggered the wrong way.
+
+Changes 7/18/2011
+Added a graphing tab and minor tweaks to the buy sell based on SMA and EMA.
+
+Changes 7/17/2011
+Updated the ticker feed from Mt Gox as the prices were incorrect after they added the wieghted average
+
+Changes 7/14/2011
+Fixed an issue where the balance was not updating from Mt Gox
+
+
+Changes 7/6/2011
+Fixed the multple Fee Issue.
+A few enhancments, but no changes to the buy / sell algorithm
+
+
+
+Changes 7/4/2011
+Added Balance Update feature - now sends you an email ever X hours with your balance at Mt Gox if checked.
+Bot now only buys when its X percent below the running avereage and when Y perecent above the running avereage.
+it now saves the average price so no data is lost between sessions.
+minor tweaks / enhancements
+	check your balance ever 60 seconds now, instead of EVERY time it would trigger a buy or sale.
+	once a sale or purchases has been made, the balance is updated.
+	no longer screams "BUY!!!" or "SELL!!!" anymore.
+
+
+Changes 7/2/2011
+Dont remember everything, but there are some changes.
+Use a real rolling average now. it resets every time you open the app and is user adjustable (in seconds)
+UI Tweaks.
+Gets your balance and loads prices on startup.
+A 0.01 BTC fee is charged for every buy and sell.
+
+
+
+Changes 6/30/2011
+
+Added some error handling when the http wrequest would time out and for email handling.
+Updated the Average Price algorithm
+Fixed the selling function - it actually didnt work before... i was posting the wrong data to the site.
+
+
+Changes 6/29/2011
+
+Fixed the autoSell function to correctly check when to sell a coin
+	if currentSellPrice >= sellValue, then sell
+Fixed the autoBuy function to correctly check when to buy a coin
+Updated how the next buy and sell values are calc'd.
+minor UI tweaks - should now save the last bought price when you hit Save Data
+fixed some buy / sell issues.
+Added the option for a rolling average - this slows it down as i go through every transaction in the last (x) hours
+	and do an average. Again, if it checked, it does it, otherwise it does not.
+
+
+Changes 6/28/2011
+
+UI Tweaks
+removed Dump part of code
+added email notification when you bought or sold a coin - comes from bitcoinsellerbot@gmail.com
+added confirmation to the manual buy and sell buttons
+settings.txt file is now not needed when furst run. if not there, its created
+minor code adjustments because of the API change at Mt Gox
+the settings.txt is now encrypted
