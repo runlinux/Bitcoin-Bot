@@ -1,3 +1,10 @@
+Changes 8/19/2011
+
+Added a simple buy and sell option
+when it checks the price, if the box is checked, if price is higher / lower than the prices, it buys or sells. simple as that.
+
+
+
 Changes 8/2/2011
 
 fix to the buy and sell values not working as usual.
@@ -9,8 +16,6 @@ change the email system - you only get emails when you can send from your own em
 Slight change to the graph - min and max are now 0.3% above / below
 handful of UI tweaks
 	user Data is now located on a seperate Tab (Ugly, but it works)
-
-
 
 
 Changes 7/19/2011

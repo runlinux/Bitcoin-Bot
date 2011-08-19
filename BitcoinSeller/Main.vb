@@ -633,10 +633,18 @@ Err:
 
     Sub checkToBuyOrSell()
 
-        autoBuy()
+        If simpleRulesCheckBox.Checked = True Then
+            If currentSellPrice >= simpleSellBox.Text Then
+                sellCoin(balanceBTC, currentSellPrice)
+            End If
+            If currentBuyPrice <= simpleBuyBox.Text Then
+                buyCoin(balanceUSD / currentBuyPrice, currentBuyPrice)
+            End If
+        Else
+            autoBuy()
 
-        autoSell()
-
+            autoSell()
+        End If
         refreshBoxes()
 
     End Sub

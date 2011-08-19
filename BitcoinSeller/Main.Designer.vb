@@ -148,6 +148,12 @@ Partial Class Main
         Me.passwordBox = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.simpleSellBox = New System.Windows.Forms.TextBox()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.simpleBuyBox = New System.Windows.Forms.TextBox()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.simpleRulesCheckBox = New System.Windows.Forms.CheckBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -160,6 +166,7 @@ Partial Class Main
         Me.TabPage3.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
+        Me.GroupBox8.SuspendLayout()
         Me.SuspendLayout()
         '
         'myBuyingPriceBox
@@ -182,7 +189,7 @@ Partial Class Main
         '
         'refreshPriceButton
         '
-        Me.refreshPriceButton.Location = New System.Drawing.Point(607, 286)
+        Me.refreshPriceButton.Location = New System.Drawing.Point(607, 131)
         Me.refreshPriceButton.Name = "refreshPriceButton"
         Me.refreshPriceButton.Size = New System.Drawing.Size(111, 23)
         Me.refreshPriceButton.TabIndex = 10
@@ -674,7 +681,7 @@ Partial Class Main
         Me.GroupBox3.Controls.Add(Me.Label7)
         Me.GroupBox3.Controls.Add(Me.balanceUSDBox)
         Me.GroupBox3.Controls.Add(Me.Label8)
-        Me.GroupBox3.Location = New System.Drawing.Point(598, 6)
+        Me.GroupBox3.Location = New System.Drawing.Point(775, 6)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(187, 168)
         Me.GroupBox3.TabIndex = 53
@@ -1024,6 +1031,7 @@ Partial Class Main
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
+        Me.TabPage1.Controls.Add(Me.GroupBox8)
         Me.TabPage1.Controls.Add(Me.openOrdersButton)
         Me.TabPage1.Controls.Add(Me.withdrawButton)
         Me.TabPage1.Controls.Add(Me.getBalanceButton)
@@ -1044,7 +1052,7 @@ Partial Class Main
         '
         'openOrdersButton
         '
-        Me.openOrdersButton.Location = New System.Drawing.Point(607, 188)
+        Me.openOrdersButton.Location = New System.Drawing.Point(607, 162)
         Me.openOrdersButton.Name = "openOrdersButton"
         Me.openOrdersButton.Size = New System.Drawing.Size(111, 23)
         Me.openOrdersButton.TabIndex = 61
@@ -1053,16 +1061,16 @@ Partial Class Main
         '
         'withdrawButton
         '
-        Me.withdrawButton.Location = New System.Drawing.Point(725, 234)
+        Me.withdrawButton.Location = New System.Drawing.Point(784, 208)
         Me.withdrawButton.Name = "withdrawButton"
-        Me.withdrawButton.Size = New System.Drawing.Size(102, 23)
+        Me.withdrawButton.Size = New System.Drawing.Size(111, 23)
         Me.withdrawButton.TabIndex = 59
         Me.withdrawButton.Text = "Withdraw Coins"
         Me.withdrawButton.UseVisualStyleBackColor = True
         '
         'getBalanceButton
         '
-        Me.getBalanceButton.Location = New System.Drawing.Point(607, 235)
+        Me.getBalanceButton.Location = New System.Drawing.Point(784, 180)
         Me.getBalanceButton.Name = "getBalanceButton"
         Me.getBalanceButton.Size = New System.Drawing.Size(111, 23)
         Me.getBalanceButton.TabIndex = 58
@@ -1345,6 +1353,66 @@ Partial Class Main
         Me.Label6.TabIndex = 49
         Me.Label6.Text = "Password"
         '
+        'GroupBox8
+        '
+        Me.GroupBox8.Controls.Add(Me.simpleRulesCheckBox)
+        Me.GroupBox8.Controls.Add(Me.simpleSellBox)
+        Me.GroupBox8.Controls.Add(Me.Label41)
+        Me.GroupBox8.Controls.Add(Me.simpleBuyBox)
+        Me.GroupBox8.Controls.Add(Me.Label45)
+        Me.GroupBox8.Location = New System.Drawing.Point(607, 7)
+        Me.GroupBox8.Name = "GroupBox8"
+        Me.GroupBox8.Size = New System.Drawing.Size(162, 115)
+        Me.GroupBox8.TabIndex = 62
+        Me.GroupBox8.TabStop = False
+        Me.GroupBox8.Text = "Simple Rules"
+        '
+        'simpleSellBox
+        '
+        Me.simpleSellBox.Location = New System.Drawing.Point(78, 48)
+        Me.simpleSellBox.Name = "simpleSellBox"
+        Me.simpleSellBox.Size = New System.Drawing.Size(78, 20)
+        Me.simpleSellBox.TabIndex = 43
+        Me.simpleSellBox.Text = "0"
+        Me.simpleSellBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Location = New System.Drawing.Point(6, 51)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(51, 13)
+        Me.Label41.TabIndex = 44
+        Me.Label41.Text = "Sell Price"
+        '
+        'simpleBuyBox
+        '
+        Me.simpleBuyBox.Location = New System.Drawing.Point(78, 21)
+        Me.simpleBuyBox.Name = "simpleBuyBox"
+        Me.simpleBuyBox.Size = New System.Drawing.Size(78, 20)
+        Me.simpleBuyBox.TabIndex = 41
+        Me.simpleBuyBox.Text = "0"
+        Me.simpleBuyBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(6, 24)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(52, 13)
+        Me.Label45.TabIndex = 42
+        Me.Label45.Text = "Buy Price"
+        '
+        'simpleRulesCheckBox
+        '
+        Me.simpleRulesCheckBox.AutoSize = True
+        Me.simpleRulesCheckBox.Location = New System.Drawing.Point(78, 76)
+        Me.simpleRulesCheckBox.Name = "simpleRulesCheckBox"
+        Me.simpleRulesCheckBox.Size = New System.Drawing.Size(57, 17)
+        Me.simpleRulesCheckBox.TabIndex = 45
+        Me.simpleRulesCheckBox.Text = "Simple"
+        Me.simpleRulesCheckBox.UseVisualStyleBackColor = True
+        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1375,6 +1443,8 @@ Partial Class Main
         Me.GroupBox7.PerformLayout()
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox6.PerformLayout()
+        Me.GroupBox8.ResumeLayout(False)
+        Me.GroupBox8.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1495,5 +1565,11 @@ Partial Class Main
     Friend WithEvents Label36 As System.Windows.Forms.Label
     Friend WithEvents mtGoxFeeBox As System.Windows.Forms.TextBox
     Friend WithEvents saveDataButton As System.Windows.Forms.Button
+    Friend WithEvents GroupBox8 As System.Windows.Forms.GroupBox
+    Friend WithEvents simpleRulesCheckBox As System.Windows.Forms.CheckBox
+    Friend WithEvents simpleSellBox As System.Windows.Forms.TextBox
+    Friend WithEvents Label41 As System.Windows.Forms.Label
+    Friend WithEvents simpleBuyBox As System.Windows.Forms.TextBox
+    Friend WithEvents Label45 As System.Windows.Forms.Label
 
 End Class
