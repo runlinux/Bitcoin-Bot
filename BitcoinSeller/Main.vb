@@ -1144,4 +1144,8 @@ e:
     Private Sub saveDataButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles saveDataButton.Click
         refreshBoxes()
     End Sub
+
+    Private Sub getBalanceButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles getBalanceButton.Click
+        getBalance()
+    End Sub
 End Class
